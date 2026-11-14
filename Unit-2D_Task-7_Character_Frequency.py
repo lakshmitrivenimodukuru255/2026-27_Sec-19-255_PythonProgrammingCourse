@@ -1,8 +1,8 @@
-text = input("Enter a string: ")
-freq = {}
 
-for char in text:
-    freq[char] = freq.get(char, 0) + 1
+str = input("Enter a string: ")
+count = 0
+for i in str:
+  count += 1
 
-for char, count in freq.items():
-    print(f"'{char}': {count}")
+print(f"Total characters: {count}")                     
+print(f"Char: {i}, Frequency: {str.count(i)}")
