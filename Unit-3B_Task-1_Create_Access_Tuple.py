@@ -1,0 +1,5 @@
+tuple=("red","green","blue")
+print("Tuple":,tuple)
+print("First":,tuple[0])
+print("Last":,tuple[1])
+print("Length":,len(tuple))
